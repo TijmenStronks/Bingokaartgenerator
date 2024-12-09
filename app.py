@@ -28,7 +28,7 @@ def save_bingo_card_as_png(bingo_card, filename="bingo_card.png"):
             ax.text(
                 j + 0.5, size - i - 0.5,
                 wrapped_text,
-                fontsize=14,
+                fontsize=10,
                 weight='bold',
                 ha='center', va='center'
             )
